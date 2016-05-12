@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bảo Vệ</string>
+    <string name="menu_name">Danh Sách</string>
+    <string name="action_settings">Cài đặt</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="kg_spass_passed">Recognised</string>
+    <string name="fingerPrintSensorSupported">Support sensor</string>
+    <string name="nofingerPrintSensorSupported">Not Support sensor</string>
+    <string name="fingerPrintNotEnabled">FingerPrint is not enabled</string>
+    <string name="spass_image_quality_skew_too_large">Swipe downwards</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="annouce_locked">Ứng dụng này đã bị khóa , hãy vẽ đồ hình để mở khóa </string>
+    <string name="applocker_on">Khoá ứng dụng đã bật</string>
+    <string name="applocker_off">Khoá ứng dụng đã tắt</string>
+    
+    <string-array name="nav_drawer_items">
+        <item>Khoá ứng dụng</item>
+        <item>Ẩn hình ảnh</item>
+        <item>Ẩn văn bản thông báo</item>
+        <item>Khoá thông minh</item>
+        <item>Cài đặt</item>
+        <item>Giới thiệu</item>
+    </string-array>
+    <string-array name="Aplication_Friend_Mode">
+        <item>com.sec.chaton</item>
+        <item>com.android.contacts</item>
+        <item>com.google.android.apps.docs</item>
+        <item>com.dropbox.android</item>
+        <item>com.google.android.gms</item>
+        <item>com.google.android.apps.plus</item>
+        <item>com.google.android.talk</item>
+        <item>jp.naver.line.android</item>
+        <item>com.samsung.android.app.memo</item>
+        <item>com.android.mms</item>
+        <item>com.sec.android.app.myfiles</item>
+        <item>com.google.android.apps.plus</item>
+        <item>com.android.vending</item>
+        <item>com.facebook.katana</item>
+        <item>com.skype.android</item>
+        <item>com.zing.zalo</item>
+        <item>com.viber.voip</item>
+        <item>com.whatsapp</item>
+    </string-array>
+    <string-array name="Application_Kid_Mode">
+        <item>com.android.contacts</item>
+        <item>com.android.chrome</item>
+        <item>com.dropbox.android</item>
+        <item>com.google.android.gms</item>
+        <item>com.google.android.apps.plus</item>
+        <item>com.google.android.talk</item>
+        <item>com.sec.android.app.sbrowser</item>
+        <item>com.android.mms</item>
+        <item>com.sec.android.app.myfiles</item>
+        <item>com.google.android.apps.plus</item>
+        <item>com.android.vending</item>
+        <item>com.facebook.katana</item>
+        <item>com.skype.android</item>
+        <item>com.zing.zalo</item>
+        <item>com.viber.voip</item>
+        <item>com.whatsapp</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/sliding_item2</item>
+        <item>@drawable/sliding_item2</item>
+        <item>@drawable/sliding_item3</item>
+        <item>@drawable/sliding_item4</item>
+        <item>@drawable/ic_settings_black_48dp</item>
+        <item>@drawable/sliding_item6</item>
+    </array>
+
+    <string name="ttitle_custome_mode">Chế độ tùy chọn</string>
+    <string name="title_friend_mode">Chế độ bạn bè</string>
+    <string name="title_kid_mode">Chế độ trẻ em</string>
+    <string name="title_activate_uninstall">kích hoạt</string>
+    <string name="title_deactivate_uninstall">Bỏ kích hoạt</string>
+    <string name="title_mode_selecttion">Lựa chọn chế độ bảo vệ</string>
+    <string name="title_selected">Đã Chọn</string>
+    <string name="title_current_mode">Tùy chọn hiện tại</string>
+    <string name="title_settings">Danh sách tùy chọn</string>
+    <string name="descrip_kid_mode">Bảo vệ ứng dụng đối với trẻ em</string>
+    <string name="descrip_friend_mode">Bảo vệ ứng dụng đối với bạn bè</string>
+    <string name="descrip_customize_mode">Tùy chọn những ứng dụng mà mình muốn bảo vệ</string>
+    <string name="kid_mode_on">Ứng dụng được bảo vệ</string>
+    <string name="kid_mode_off">Ứng dụng không được bảo vệ </string>
+    <string name="kid">Trẻ em </string>
+    <string name="friend">Bạn Bè</string>
+    <string name="customize">Chỉnh sửa</string>
+    <string name="txt_title_password">Mật Khẩu</string>
+    <string name="txt_setup_password">Đặt mật khẩu</string>
+    <string name="descip_low_security">Độ bảo mật thấp</string>
+    <string name="txt_pattern">Đồ hình</string>
+    <string name="txt_descrip_pattern">Vẽ đồ hình của bạn</string>
+    <string name="descrip_pattern">Độ bảo mật trung bình</string>
+    <string name="txt_finger_print">Dấu vân tay</string>
+    <string name="txt_header_finger_print">Thiết lập dấu vân tay của bạn</string>
+    <string name="txt_descrip_finger">Độ bảo mật cao</string>
+    <string name="txt_hint_input_password">Nhập Mật Khẩu</string>
+    <string name="txt_finger_answer_tip">Bảo mật bằng dấu vân tay</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="ok_button">OK</string>
+    <string name="zero">0</string>
+    <string name="del">X</string>
+    <string name="txt_security_type">Chế độ bảo mật</string>
+    <string name="txt_current_type">Chế độ hiện tại</string>
+    <string name="descrip_type">Mật Khẩu</string>
+    <string name="title_time_lock">Hẹn giờ khóa ứng dụng</string>
+    <string name="title_uninstall_lock">Gỡ bỏ ứng dụng</string>
+    <string name="title_header_timelock">Cài Đặt thời gian khóa ứng dụng</string>
+    <string name="title_uninstall_timelock">Ngăn chặn gỡ bỏ ứng dụng</string>
+    <string name="descrip_time_lock">30 phút</string>
+    <string name="title_theme_lock">Theme Bảo mật</string>
+    <string name="title_header_theme">Thay đổi theme của ứng dụng</string>
+    <string name="descrip_theme">Theme Xanh Trắng</string>
+    <string name="txt_tip_pattern">Vẽ Đồ Hình</string>
+    <string name="btn_cancel">Hủy bỏ</string>
+    <string name="btn_continue">Tiếp tục</string>
+    <string name="btn_confirm">Xác Nhận</string>
+    <string name="txt_tip_first_lunch">Bảo vệ ứng dụng tuyệt đối </string>
+    <string name="txt_hint_confirm_password">Xác nhận mật khẩu</string>
+    <string name="annouce_password_saving">Mật khẩu của bạn đã có hiệu lực</string>
+    <string name="annouce_input_password">Hãy nhập vào mật khẩu </string>
+    <string name="annouce_wrong_password">Mật Khẩu sai mời bạn nhập lại </string>
+    <string name="annouce_wrong_pattern">Đồ hình bạn vẽ chưa đúng </string>
+    <string name="annouce_input_pattern">Hãy vẽ đồ hình bảo mật </string>
+    <string name="state_button_retry">Thử lại </string>
+    <string name="status_button">Chào mừng bạn đến với chế độ bảo mật ứng dụng </string>
+    <string name="status_not_enough_nodes">Đồ hình phải chứa ít nhất 4 nút </string>
+    <string name="annouce_not_support">chức năng này chưa được hỗ trợ </string>
+    <string name="guide_add_protect">Bạn có muốn đưa ứng dụng này vào chế độ bảo mật không ?</string>
+    <string name="un_lock">Hủy bảo mật</string>
+    <string name="default_kidmode">tùy chọn mặc định </string>
+    <string name="default_friendmode">Tùy chọn mặc định</string>
+    <string name="all">Chọn tất</string>
+    <string name="tip_fingerprint">Place fingerprint on the home key to unlock</string>
+    <string name="descrip_uninstall_status">Chưa kích hoạt </string>
+    <string name="txt_title_uninstall">Kích hoạt</string>
+    <string name="title_setup_password">Thiết lập mật khẩu </string>
+    <string name="about_version">1.0</string>
+    <string name="about_development">Thông tin nhà phát triển</string>
+    <string name="about_team">Ứng dụng được phát triển bởi Kidland Studio</string>
+    <string name="about_contactpoint"></string>
+    <string name="notice_register_in_settings">Hãy đăng kí dấu vân tay của bạn \n\t\t\tSettings > Dấu vân tay </string>
+    <string name="swipe_downwards">Quẹt vân tay vào giữa nút home </string>
+    <string name="kid_friend">Chế độ bảo vệ cho bạn bè hoặc trẻ em đã được kích hoạt </string>
+    <string name="about_bt_vote">Đánh giá 5 sao trên Google Play</string>
+    <string name="about_bt_localize">Giúp chúng tôi bản địa hoá</string>
+    <string name="DialogManager_selectPIN">Vui lòng chọn PIN của bạn trước</string>
+    <string name="DialogManager_confirmPIN">Xác nhận lại mã PIN</string>
+     
+</resources>

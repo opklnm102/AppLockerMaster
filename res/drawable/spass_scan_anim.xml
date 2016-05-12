@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true" >
+
+    <!--  duration : 300 / frame : 10 -->
+    <item
+        android:drawable="@drawable/spass_scan_01"
+        android:duration="30"/>
+    <item
+        android:drawable="@drawable/spass_scan_02"
+        android:duration="30"/>
+    <item
+        android:drawable="@drawable/spass_scan_03"
+        android:duration="30"/>
+    <item
+        android:drawable="@drawable/spass_scan_04"
+        android:duration="30"/>
+    <item
+        android:drawable="@drawable/spass_scan_05"
+        android:duration="30"/>
+    <item
+        android:drawable="@drawable/spass_scan_06"
+        android:duration="30"/>
+    <item
+        android:drawable="@drawable/spass_scan_07"
+        android:duration="30"/>
+    <item
+        android:drawable="@drawable/spass_scan_08"
+        android:duration="30"/>
+    <item
+        android:drawable="@drawable/spass_scan_09"
+        android:duration="30"/>
+    <item
+        android:drawable="@drawable/spass_scan_10"
+        android:duration="30"/>
+
+</animation-list>

@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/actionbar_background_color"
+    tools:context="com.samsung.security.pattentdesign.PatternConfiguration" >
+
+    <LinearLayout
+        android:id="@+id/common"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:textSize="@dimen/input_textsize"
+            android:background="@drawable/bg_button"
+            android:text="@string/btn_cancel"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnContinue"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_button"
+            android:enabled="false"
+            android:textSize="@dimen/input_textsize"
+            android:text="@string/btn_continue"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/panel"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_above="@+id/common"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/common_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/panel"
+        android:layout_marginBottom="10dp"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/icon_pattern"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/icon_pattern" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_horizontal"
+            android:text="@string/txt_descrip_pattern"
+            android:textColor="@color/title"
+            android:textSize="@dimen/input_textsize" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title_annouce"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/common_title"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/annouce_locked"
+        android:textSize="@dimen/title_textsize"
+        android:textColor="@color/title" />
+</RelativeLayout>

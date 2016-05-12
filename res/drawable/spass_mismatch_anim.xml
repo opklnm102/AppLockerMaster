@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true" >
+
+    <!--  duration : 405 / frame : 15 -->
+    <item
+        android:drawable="@drawable/spass_mismatch_01"
+        android:duration="27"/>
+    <item
+        android:drawable="@drawable/spass_mismatch_02"
+        android:duration="27"/>
+    <item
+        android:drawable="@drawable/spass_mismatch_03"
+        android:duration="27"/>
+    <item
+        android:drawable="@drawable/spass_mismatch_04"
+        android:duration="27"/>
+    <item
+        android:drawable="@drawable/spass_mismatch_05"
+        android:duration="27"/>
+    <item
+        android:drawable="@drawable/spass_mismatch_06"
+        android:duration="27"/>
+    <item
+        android:drawable="@drawable/spass_mismatch_07"
+        android:duration="27"/>
+    <item
+        android:drawable="@drawable/spass_mismatch_08"
+        android:duration="27"/>
+    <item
+        android:drawable="@drawable/spass_mismatch_09"
+        android:duration="27"/>
+    <item
+        android:drawable="@drawable/spass_mismatch_10"
+        android:duration="27"/>
+    <item
+        android:drawable="@drawable/spass_mismatch_11"
+        android:duration="27"/>
+    <item
+        android:drawable="@drawable/spass_mismatch_12"
+        android:duration="27"/>
+    <item
+        android:drawable="@drawable/spass_mismatch_13"
+        android:duration="27"/>
+    <item
+        android:drawable="@drawable/spass_mismatch_14"
+        android:duration="27"/>
+    <item
+        android:drawable="@drawable/spass_mismatch_15"
+        android:duration="27"/>
+
+</animation-list>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/txtPaswordLock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="20dp"
+            android:text="@string/txt_title_password"
+            android:textColor="@color/title"
+            android:textSize="@dimen/title_textsize" />
+
+        <LinearLayout
+            android:id="@+id/cmPaswordLock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtPaswordLock"
+            android:clickable="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtHeaderPaswordLock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="2dp"
+                android:clickable="false"
+                android:text="@string/title_setup_password"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/input_textsize" />
+
+            <TextView
+                android:id="@+id/txtDescripPaswordTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/txtHeaderType"
+                android:layout_marginBottom="20dp"
+                android:clickable="false"
+                android:text="@string/descip_low_security"
+                android:textColor="@color/color_desciption"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/darker_gray" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/txtTitlePattern"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="20dp"
+            android:text="@string/txt_pattern"
+            android:textColor="@color/title"
+            android:textSize="@dimen/title_textsize" />
+
+        <LinearLayout
+            android:id="@+id/cmPattern"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtTitlePattern"
+            android:clickable="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtHeaderPattern"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/txtTitleType"
+                android:layout_marginBottom="2dp"
+                android:clickable="false"
+                android:text="@string/txt_descrip_pattern"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/input_textsize" />
+
+            <TextView
+                android:id="@+id/txtDescripPattern"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/txtHeaderType"
+                android:layout_marginBottom="20dp"
+                android:clickable="false"
+                android:text="@string/descrip_pattern"
+                android:textColor="@color/color_desciption"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/darker_gray" />
+
+    <RelativeLayout
+        android:id="@+id/itemFinger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/txtFingerPrint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="20dp"
+            android:text="@string/txt_finger_print"
+            android:textColor="@color/title"
+            android:textSize="@dimen/title_textsize" />
+
+        <LinearLayout
+            android:id="@+id/cmFingerPrint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtFingerPrint"
+            android:clickable="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtHeaderFingerPrint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/txtTitleType"
+                android:layout_marginBottom="2dp"
+                android:clickable="false"
+                android:text="@string/txt_header_finger_print"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/input_textsize" />
+
+            <TextView
+                android:id="@+id/txtDescripFingerPrint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/txtHeaderType"
+                android:layout_marginBottom="20dp"
+                android:clickable="false"
+                android:text="@string/txt_descrip_finger"
+                android:textColor="@color/color_desciption"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/darker_gray" />
+
+</LinearLayout>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/adView"
+        android:layout_alignParentTop="true"
+        android:layout_weight="0.9" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" >
+
+                <TextView
+                    android:id="@+id/txtTitleSelect"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/title_selected"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/title_textsize" />
+
+                <LinearLayout
+                    android:id="@+id/cmChangeSelect"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtTitleSelect"
+                    android:clickable="true"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txtHeaderSelect"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/txtTitleSelect"
+                        android:layout_marginBottom="2dp"
+                        android:clickable="false"
+                        android:text="@string/title_current_mode"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/input_textsize" />
+
+                    <TextView
+                        android:id="@+id/txtDescripSelect"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/txtHeaderType"
+                        android:layout_marginBottom="20dp"
+                        android:clickable="false"
+                        android:text="@string/customize"
+                        android:textColor="@color/color_desciption"
+                        android:textSize="16dp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@android:color/darker_gray" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" >
+
+                <TextView
+                    android:id="@+id/txtSetting"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/title_settings"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/title_textsize" />
+
+                <LinearLayout
+                    android:id="@+id/cmKidMode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtSetting"
+                    android:clickable="true"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txtKidMode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginBottom="2dp"
+                        android:clickable="false"
+                        android:text="@string/title_kid_mode"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/input_textsize" />
+
+                    <TextView
+                        android:id="@+id/txtKidMode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/txtHeaderType"
+                        android:layout_marginBottom="20dp"
+                        android:clickable="false"
+                        android:text="@string/descrip_kid_mode"
+                        android:textColor="@color/color_desciption"
+                        android:textSize="16dp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:id="@+id/cmFriendMode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txtFriendMode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/txtTitleType"
+                        android:layout_marginBottom="2dp"
+                        android:clickable="false"
+                        android:text="@string/title_friend_mode"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/input_textsize" />
+
+                    <TextView
+                        android:id="@+id/txtFriendMode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/txtHeaderType"
+                        android:layout_marginBottom="20dp"
+                        android:clickable="false"
+                        android:text="@string/descrip_friend_mode"
+                        android:textColor="@color/color_desciption"
+                        android:textSize="16dp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:id="@+id/cmCustomizeMode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txtCustomizeMode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/txtTitleType"
+                        android:layout_marginBottom="2dp"
+                        android:clickable="false"
+                        android:text="@string/ttitle_custome_mode"
+                        android:textColor="@color/color_desciption"
+                        android:textSize="@dimen/input_textsize" />
+
+                    <TextView
+                        android:id="@+id/txtCustomizeMode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/txtHeaderType"
+                        android:layout_marginBottom="20dp"
+                        android:clickable="false"
+                        android:text="@string/descrip_customize_mode"
+                        android:textColor="@color/color_desciption"
+                        android:textSize="16dp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

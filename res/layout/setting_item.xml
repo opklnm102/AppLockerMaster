@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="72dp"
+    android:orientation="horizontal"
+    android:paddingBottom="8dp"
+    android:paddingLeft="5dp"
+    android:paddingTop="8dp" >
+
+    <ToggleButton
+        android:id="@+id/setting_item_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="16dp"
+        android:layout_weight="0.1"
+        android:background="@drawable/toggle_button_lock2"
+        android:gravity="center_vertical"
+        android:textOff=""
+        android:textOn="" />
+
+    <TextView
+        android:id="@+id/setting_item_sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/id_item_lock"
+        android:layout_alignLeft="@+id/id_item_appname"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/setting_item_name"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_weight="0.8"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="TextView"
+        android:textColor="@color/title"
+        android:textSize="@dimen/title_textsize" />
+
+</RelativeLayout>

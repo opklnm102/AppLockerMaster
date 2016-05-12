@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/common1"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="0dp"
+        android:text="@string/txt_title_uninstall"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/input_textsize"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/btnActivate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:checked="false"
+        android:text="@string/title_activate_uninstall"
+        android:textSize="@dimen/title_textsize" />
+
+    <RadioButton
+        android:id="@+id/btnDeActivate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:checked="true"
+        android:text="@string/title_deactivate_uninstall"
+        android:textSize="@dimen/title_textsize" />
+
+</LinearLayout>

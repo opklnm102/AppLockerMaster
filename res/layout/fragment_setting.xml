@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.9" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="false"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" >
+
+                <TextView
+                    android:id="@+id/txtTitleType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/txt_security_type"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/title_textsize" />
+
+                <LinearLayout
+                    android:id="@+id/cmChangeType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtTitleType"
+                    android:clickable="true"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txtHeaderType"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/txtTitleType"
+                        android:layout_marginBottom="2dp"
+                        android:clickable="false"
+                        android:text="@string/txt_current_type"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/input_textsize" />
+
+                    <TextView
+                        android:id="@+id/txtDescripType"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/txtHeaderType"
+                        android:layout_marginBottom="20dp"
+                        android:clickable="false"
+                        android:text="@string/descrip_type"
+                        android:textColor="@color/color_desciption"
+                        android:textSize="16dp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@android:color/darker_gray" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" >
+
+                <TextView
+                    android:id="@+id/txtUninstall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/title_uninstall_lock"
+                    android:textColor="@color/title"
+                    android:textSize="@dimen/title_textsize" />
+
+                <LinearLayout
+                    android:id="@+id/cmUninstall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtUninstall"
+                    android:clickable="true"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txtHeaderUninstall"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginBottom="2dp"
+                        android:clickable="false"
+                        android:text="@string/title_uninstall_timelock"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/input_textsize" />
+
+                    <TextView
+                        android:id="@+id/txtDescripUninstall"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/txtHeaderUninstall"
+                        android:layout_marginBottom="20dp"
+                        android:clickable="false"
+                        android:text="@string/descrip_uninstall_status"
+                        android:textColor="@color/color_desciption"
+                        android:textSize="16dp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@android:color/darker_gray" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" >
+
+                <TextView
+                    android:id="@+id/txtTimeLock"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/title_time_lock"
+                    android:textColor="@color/color_desciption"
+                    android:textSize="@dimen/title_textsize" />
+
+                <LinearLayout
+                    android:id="@+id/cmTimeLock"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtTimeLock"
+                    android:clickable="true"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txtHeaderTimeLock"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginBottom="2dp"
+                        android:clickable="false"
+                        android:text="@string/title_header_timelock"
+                        android:textColor="@color/color_desciption"
+                        android:textSize="@dimen/input_textsize" />
+
+                    <TextView
+                        android:id="@+id/txtDescripLockTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/txtHeaderType"
+                        android:layout_marginBottom="20dp"
+                        android:clickable="false"
+                        android:text="@string/descrip_time_lock"
+                        android:textColor="@color/color_desciption"
+                        android:textSize="16dp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@android:color/darker_gray" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" >
+
+                <TextView
+                    android:id="@+id/txtChangeTheme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/title_theme_lock"
+                    android:textColor="@color/color_desciption"
+                    android:textSize="@dimen/title_textsize" />
+
+                <LinearLayout
+                    android:id="@+id/cmTheme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtChangeTheme"
+                    android:clickable="true"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txtHeaderTheme"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/txtTitleType"
+                        android:layout_marginBottom="2dp"
+                        android:clickable="false"
+                        android:text="@string/title_header_theme"
+                        android:textColor="@color/color_desciption"
+                        android:textSize="@dimen/input_textsize" />
+
+                    <TextView
+                        android:id="@+id/txtDescripTheme"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/txtHeaderType"
+                        android:layout_marginBottom="20dp"
+                        android:clickable="false"
+                        android:text="@string/descrip_theme"
+                        android:textColor="@color/color_desciption"
+                        android:textSize="16dp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@android:color/darker_gray" />
+
+          
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

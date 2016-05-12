@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/common1"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="0dp"
+        android:text="@string/title_mode_selecttion"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/input_textsize"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/btnKidMode"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/title_kid_mode"
+        android:textSize="@dimen/title_textsize" />
+
+    <RadioButton
+        android:id="@+id/btnFriendMode"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/title_friend_mode"
+        android:textSize="@dimen/title_textsize" />
+
+    <RadioButton
+        android:id="@+id/btnCustomizeMode"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/ttitle_custome_mode"
+        android:textSize="@dimen/title_textsize" />
+
+   
+
+</LinearLayout>

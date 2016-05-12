@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/actionbar_background_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/firstLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.81"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/passicon"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/logo1_01" />
+
+        <TextView
+            android:id="@+id/confirmlock_tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/passicon"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/list_background"
+            android:text="Nhập mã pin của bạn hoặc dùng vân tay" />
+        
+        <TextView
+            android:id="@+id/confirmlock_tv_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/confirmlock_tv_status"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/list_background"
+            android:textSize="25dp"
+            android:text="" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/passtableNumber"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/confirmlock_tv_show"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="40dp"
+        android:orientation="vertical" >
+
+        <TableRow
+            android:id="@+id/passrow1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="1"
+            android:gravity="bottom" >
+
+            <Button
+                android:id="@+id/passbtnNum1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/button_style"
+                android:gravity="center"
+                android:text="@string/one"
+                android:textColor="@color/list_item_title"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/passbtnNum2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_style"
+                android:gravity="center"
+                android:text="@string/two"
+                android:textColor="@color/list_item_title"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/passbtnNum3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_style"
+                android:gravity="center"
+                android:text="@string/three"
+                android:textColor="@color/list_item_title"
+                android:textSize="30dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/passrow2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="1"
+            android:gravity="bottom" >
+
+            <Button
+                android:id="@+id/passbtnNum4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/button_style"
+                android:gravity="center"
+                android:text="@string/four"
+                android:textColor="@color/list_item_title"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/passbtnNum5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_style"
+                android:gravity="center"
+                android:text="@string/five"
+                android:textColor="@color/list_item_title"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/passbtnNum6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_style"
+                android:gravity="center"
+                android:text="@string/six"
+                android:textColor="@color/list_item_title"
+                android:textSize="30dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/passrow3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="1"
+            android:gravity="bottom" >
+
+            <Button
+                android:id="@+id/passbtnNum7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/button_style"
+                android:gravity="center"
+                android:text="@string/seven"
+                android:textColor="@color/list_item_title"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/passbtnNum8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_style"
+                android:gravity="center"
+                android:text="@string/eight"
+                android:textColor="@color/list_item_title"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/passbtnNum9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_style"
+                android:gravity="center"
+                android:text="@string/nine"
+                android:textColor="@color/list_item_title"
+                android:textSize="30dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/passrow4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom" >
+
+            <Button
+                android:id="@+id/passbtnNumOK"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/actionbar_background_color"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/list_item_title"
+                android:textSize="22dp" />
+
+            <Button
+                android:id="@+id/passbtnNum0"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_style"
+                android:gravity="center"
+                android:text="@string/zero"
+                android:textColor="@color/list_item_title"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/passbtnNumDel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_style"
+                android:gravity="center"
+                android:text="@string/del"
+                android:textColor="@color/list_item_title"
+                android:textSize="22dp" />
+        </TableRow>
+    </LinearLayout>
+</LinearLayout>

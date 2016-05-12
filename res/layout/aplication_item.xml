@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="72dp"
+    android:orientation="horizontal"
+    android:paddingBottom="8dp"
+    android:paddingLeft="5dp"
+    android:paddingTop="8dp" >
+
+    <ImageView
+        android:id="@+id/id_item_appicon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="0.1"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:id="@+id/id_item_appname"
+        android:layout_width="220dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:singleLine="true"
+        android:textColor="@color/title"
+        android:textSize="@dimen/title_textsize" />
+
+    <ToggleButton
+        android:id="@+id/id_item_lock"
+        android:layout_width="15dp"
+        android:layout_height="25dp"
+        android:gravity="center_vertical"
+        android:layout_weight="0.1"
+        android:layout_marginRight="16dp"
+        android:textOn=""
+        android:textOff=""
+        android:background="@drawable/toggle_button_lock"
+         />
+
+</LinearLayout>

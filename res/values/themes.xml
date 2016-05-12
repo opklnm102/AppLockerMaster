@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- the theme applied to the application or activity -->
+    <style name="CustomActionBarTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/CustomActionBarStyle</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="CustomActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse" >
+        <item name="android:background">@color/actionbar_background_color</item>
+        <item name="android:textColor">@color/list_background</item>
+        <item name="android:height">56dp</item>
+        <item name="android:titleTextStyle">@style/Title_ActionBar</item>
+        <item name="android:icon">@drawable/logo2_01</item>
+    </style>
+ 	<style name="Title_ActionBar" parent="@android:style/TextAppearance.Holo.Medium.Inverse">
+ 	    <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">@dimen/title_textsize</item>
+    </style>
+    
+</resources>
